@@ -9,7 +9,8 @@ import {Task} from "./Task";
 export type TaskType = {
     id: string
     title: string
-    isDone: boolean
+    isDone: boolean,
+
 }
 
 type PropsType = {
